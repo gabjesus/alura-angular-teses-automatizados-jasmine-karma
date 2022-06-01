@@ -12,6 +12,7 @@ describe(LikeWidgetComponent.name, () => {
     //   providers: [UniqueIdService],
     //   imports: [FontAwesomeModule]
     // }).compileComponents();
+    
     TestBed.configureTestingModule({
       imports: [LikeWidgetModule],
     }).compileComponents();
