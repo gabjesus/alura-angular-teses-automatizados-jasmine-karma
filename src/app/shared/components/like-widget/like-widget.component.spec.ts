@@ -7,12 +7,13 @@ describe(LikeWidgetComponent.name, () => {
 
   beforeEach(() => {
     // Configurando um módulo para o teste
+    
     // TestBed.configureTestingModule({
     //   declarations: [LikeWidgetComponent],
     //   providers: [UniqueIdService],
     //   imports: [FontAwesomeModule]
     // }).compileComponents();
-    
+
     TestBed.configureTestingModule({
       imports: [LikeWidgetModule],
     }).compileComponents();
